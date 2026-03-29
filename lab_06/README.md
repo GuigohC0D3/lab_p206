@@ -49,3 +49,7 @@ Se precisar instalar manualmente:
 ## Observacao importante
 
 As etapas de BPE executam normalmente no projeto atual. A etapa de WordPiece depende de acesso as dependencias e, em alguns casos, de conexao com a internet para baixar o tokenizer do Hugging Face.
+
+## Avisos esperados
+
+Se aparecer a mensagem informando que o `PyTorch` nao foi encontrado, isso nao impede a Tarefa 3. Nesse projeto, a biblioteca `transformers` esta sendo usada apenas para carregar o tokenizer e gerar os tokens, sem executar o modelo completo.
